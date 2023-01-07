@@ -62,29 +62,29 @@ Make your commit and Save the Pipelie
 
 For this you need to create a PAT or personal access token and get the agent version for Windows, Linux or MacOS
 
-![self hosted agent 1 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/139b6360681f3c4084f18c3dce004363c1824009/Images/10.png)
+![self hosted agent 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/10.png)
 
-![self hosted agent 2 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/139b6360681f3c4084f18c3dce004363c1824009/Images/11.png)
+![self hosted agent 2 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/11.png)
 
 ## Pipeline Build
 
 When the Pipeline is run the output will look like this: 
 
-![pipeline build ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/139b6360681f3c4084f18c3dce004363c1824009/Images/12.jpeg)
+![pipeline build ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/12.png)
 
 On its Deploy Stage you need to allow it to do that to your ACR and AKS
 
-![pipeline deploy 1 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/139b6360681f3c4084f18c3dce004363c1824009/Images/13.jpeg)
+![pipeline deploy 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/13.png)
 
-![pipeline deploy 2 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/139b6360681f3c4084f18c3dce004363c1824009/Images/14.jpeg)
+![pipeline deploy 2 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/14.png)
 
 One it has deployed you will be able to find the Public IP given to our application in a Kubernetes Service in this case  20.84.17.96
 
-![pipeline deploy 3 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/139b6360681f3c4084f18c3dce004363c1824009/Images/15.jpeg)
+![pipeline deploy 3 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/15.png)
 
 ## Connecting to the cluster using the az aks get-credentials --resource-group (rg-name) --name (cluster-name) command allows you to run Kubectl commands such as:
 
-![kubectl 1 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/76c870b8433673f2d14a7bed0165d40928492b9e/Images/16.jpeg)
+![kubectl 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/16.png)
 
 For checking the Kubernetes Deployment used by our Application's products
 
@@ -113,7 +113,7 @@ Increase the number of Pods running our Deployment
 
 ## Finally you can visit 20.84.17.96 to view your running application or use the curl command
 
-![curl ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/1018e8eed2db2d0fffc839c8303a797507c9a900/Images/17.jpeg)
+![curl ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/17.png)
 
 # Conclusion 
 
