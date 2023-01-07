@@ -82,7 +82,12 @@ One it has deployed you will be able to find the Public IP given to our applicat
 
 ![pipeline deploy 3 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/15.jpeg)
 
-## Connecting to the cluster using the az aks get-credentials --resource-group (rg-name) --name (cluster-name) command allows you to run Kubectl commands such as:
+## Connecting to the cluster using the 
+
+```
+az aks get-credentials --resource-group (rg-name) --name (cluster-name)
+```
+Allows you to run Kubectl commands such as:
 
 ![kubectl 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/16.jpeg)
 
