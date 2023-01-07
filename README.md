@@ -40,23 +40,23 @@ Creating a pipeline to deploy to the Cluster first requires Azure DevOps to have
 
 After creating the proper connection you can start creating the Pipeline following this steps:
 
-![pipeline step 1 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/e3805ad5eff26f26b9174afa0e1c437e8b03d761/Images/1.png)
+![pipeline step 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/1.png)
 
 Select the repository where the application is hosted
 
-![pipeline step 2 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/e3805ad5eff26f26b9174afa0e1c437e8b03d761/Images/2.png)
+![pipeline step 2 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/2.png)
 
 Select the option to Deploy to AKS
 
-![pipeline step 3 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/e3805ad5eff26f26b9174afa0e1c437e8b03d761/Images/3.png)
+![pipeline step 3 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/3.png)
 
 Select your AKS and ACR created using Bicep 
 
-![pipeline step 4 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/e3805ad5eff26f26b9174afa0e1c437e8b03d761/Images/4.png)
+![pipeline step 4 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/4.png)
 
 Make your commit and Save the Pipelie
 
-![pipeline step 5 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/e3805ad5eff26f26b9174afa0e1c437e8b03d761/Images/4.1.png)
+![pipeline step 5 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/4.1.png)
 
 ## Optionally you can create a [Self Hosted Azure DevOps Agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser#install) for your Pipelines
 
