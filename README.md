@@ -74,17 +74,17 @@ When the Pipeline is run the output will look like this:
 
 On its Deploy Stage you need to allow it to do that to your ACR and AKS
 
-![pipeline deploy 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/13.png)
+![pipeline deploy 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/13.jpeg)
 
-![pipeline deploy 2 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/14.png)
+![pipeline deploy 2 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/14.jpeg)
 
 One it has deployed you will be able to find the Public IP given to our application in a Kubernetes Service in this case  20.84.17.96
 
-![pipeline deploy 3 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/15.png)
+![pipeline deploy 3 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/15.jpeg)
 
 ## Connecting to the cluster using the az aks get-credentials --resource-group (rg-name) --name (cluster-name) command allows you to run Kubectl commands such as:
 
-![kubectl 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/16.png)
+![kubectl 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/16.jpeg)
 
 For checking the Kubernetes Deployment used by our Application's products
 
@@ -113,7 +113,7 @@ Increase the number of Pods running our Deployment
 
 ## Finally you can visit 20.84.17.96 to view your running application or use the curl command
 
-![curl ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/17.png)
+![curl ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/5c2741b0f58eed1baaef5abcf1615ffdfb4648b2/pictures/17.jpeg)
 
 # Conclusion 
 
