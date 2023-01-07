@@ -32,11 +32,11 @@ az deployment group create --resource-group myResourceGroup --template-file main
 Creating a pipeline to deploy to the Cluster first requires Azure DevOps to have permissions over the Azure Subscription, to achieving that a new service connection needs to be created, use the steps below:
 
 
-![step 1 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/ceabb8759ff2ee8b2afe5003091aa19e73d58137/Images/7.png)
+![step 1 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/7.png)
 
-![step 2 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/ceabb8759ff2ee8b2afe5003091aa19e73d58137/Images/8.png)
+![step 2 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/8.png)
 
-![step 3 ](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/ceabb8759ff2ee8b2afe5003091aa19e73d58137/Images/9.png)
+![step 3 ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/9.png)
 
 After creating the proper connection you can start creating the Pipeline following this steps:
 
