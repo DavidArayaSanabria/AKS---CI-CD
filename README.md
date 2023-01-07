@@ -6,7 +6,7 @@
 - Azure Kubernetes Services
 - Azure Conatiner Registry
 
-![azure architecture](https://git.toptal.com/davidjosuearayasanabria/davidjosuearayasanabria/-/blob/9a50889be7853b71498153a8cec41262ab46fa8d/Images/architecture.png)
+![azure architecture](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/36417ca6439bab78a2777d98f8396d439083d1dc/pictures/architecture.png)
 
 The architecture shows logically the products used in order to deploy a web application to an Azure Kubernetes Service Cluster.
 
