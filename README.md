@@ -70,7 +70,7 @@ For this you need to create a PAT or personal access token and get the agent ver
 
 When the Pipeline is run the output will look like this: 
 
-![pipeline build ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/75cd5143575e17d778376b5282e82ce1adfc6cbe/pictures/12.png)
+![pipeline build ](https://github.com/DavidArayaSanabria/AKS---CI-CD/blob/48be19e8d2ad455714bc6c2d840c922bd0a4b4c6/pictures/12.jpeg)
 
 On its Deploy Stage you need to allow it to do that to your ACR and AKS
 
